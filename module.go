@@ -1,9 +1,9 @@
 package goModule
 
 import (
-    "fmt"
+    "github.com/jtianling/goModule/content"
 )
 
 func Print() {
-    fmt.Println("hello, world")
+    content.Print()
 }
